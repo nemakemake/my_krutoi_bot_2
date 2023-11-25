@@ -8,11 +8,15 @@ theme: /
 
     state: Hello
         intent!: /hello
-        a: Hello hello
+        a: privet
 
-    state: Bye
-        intent!: /bye
-        a: Bye bye
+    state: Weather
+        intent!: /weather
+        a: sunny
+        
+    state: Currency
+        intent!: /currency
+        a: 100 dollarov eto 1 kopeika
 
     state: NoMatch
         event!: noMatch
